@@ -1,4 +1,5 @@
-> ## Functions that cache the inverse of a matrix
+> ##' Functions that cache the inverse of a matrix
+>
 > #' Util function that set the matrix and the inverse in an environment
 > #' @param x an invertible matrix
 > #' examples
@@ -19,6 +20,7 @@
 +        setinverse = setinverse,
 +        getinverse = getinverse)
 + }
+>
 > #' Solve and cache the inverse of a matrix
 > #' @param x the result of a previous makeCacheMatrix call
 > #' @param ... additional arguments to pass to solve function
